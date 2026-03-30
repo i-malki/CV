@@ -55,19 +55,19 @@ body {
 }
 
 .btn-contact {
-    background-color: #ffffff;  /* fond blanc */
-    color: #2563eb !important;  /* texte bleu foncé */
+    background-color: #ffffff !important;  /* fond blanc */
+    color: #2563eb !important;             /* texte bleu foncé */
+    border: 2px solid #2563eb !important;  /* bord bleu */
     padding: 6px 15px;
     border-radius: 5px;
-    border: 2px solid #2563eb;  /* bord bleu */
     font-weight: bold;
-    transition: background 0.3s, color 0.3s;
     text-decoration: none;
+    transition: background 0.3s, color 0.3s;
 }
 
 .btn-contact:hover {
-    background-color: #2563eb; /* bleu foncé au hover */
-    color: #ffffff !important; /* texte devient blanc */
+    background-color: #2563eb !important; /* bleu foncé au hover */
+    color: #ffffff !important;            /* texte blanc au hover */
 }
 
 /* ===== Hero Section ===== */
